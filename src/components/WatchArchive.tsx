@@ -314,7 +314,7 @@ const WatchArchive: React.FC = () => {
             </div>
             <h2 className="text-[clamp(40px,6vw,80px)] font-serif font-light leading-[0.92] tracking-tight text-white mb-10">A Legacy Reimagined</h2>
             <p className="text-sm leading-[2] text-white/40 max-w-sm mb-12 font-light uppercase tracking-wider">
-              Split Chrono represents the pinnacle of horological curation. Based in Split and Milano, our boutique offers only the most distinguished timepieces for enthusiasts who demand excellence.
+              AR Watches Corp represents the pinnacle of horological wholesale. Based in Miami, our flagship boutique offers only the most distinguished timepieces for enthusiasts who demand excellence.
             </p>
             <div className="flex gap-12 mt-12 pt-12 border-t border-white/10">
               <div className="flex flex-col gap-1">
@@ -391,7 +391,7 @@ const WatchArchive: React.FC = () => {
               Time is the ultimate luxury. Our mission is to help you measure it with absolute precision and grace.
             </p>
             <p className="text-[10px] uppercase tracking-[0.4em] text-white/30 font-mono">
-              <span className="text-accent font-bold">Split Chrono</span> — The Gentlemen's Standard
+              <span className="text-accent font-bold">AR Watches Corp</span> — The Miami Standard
             </p>
           </div>
         </section>
@@ -416,7 +416,7 @@ const WatchArchive: React.FC = () => {
               </button>
               <div className="text-[10px] uppercase tracking-[0.2em] text-white/20 text-right leading-[2.5] font-mono">
                 <p>Limited Production - GMT Edition 2026</p>
-                <p>Split Chrono © 2026</p>
+                <p>AR Watches Corp © 2026</p>
               </div>
             </div>
           </div>

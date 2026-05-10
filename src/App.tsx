@@ -11,10 +11,10 @@ const navLinks = [
 ];
 
 const specs = [
-  { val: "Split", label: "Maison" },
-  { val: "Milano", label: "Boutique" },
-  { val: "Trusted", label: "Dealer" },
-  { val: "Europe", label: "Shipping" },
+  { val: "Miami", label: "Headquarters" },
+  { val: "Downtown", label: "Flagship" },
+  { val: "Wholesale", label: "Direct" },
+  { val: "Global", label: "Distribution" },
 ];
 
 export default function App() {
@@ -34,15 +34,15 @@ export default function App() {
         <div className="flex items-center gap-4 pointer-events-auto group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <div className="w-16 h-16 border border-accent/20 rounded-none flex items-center justify-center group-hover:border-accent transition-all overflow-hidden bg-luxury-navy shadow-2xl">
              <img 
-               src="https://scontent-lga3-2.cdninstagram.com/v/t51.82787-19/670014532_18082989308096711_3808227042619397257_n.jpg?cb=8438d1d6-89aba764&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDI0LmMyIn0&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gH3wA1fG29CfPrB-gGG3dFdmYVxgsVnuDex-WM2p9GYEyXsUHZCpfAq75S7hR7hEdBW6FtRXX9TznvPmByYNvnM&_nc_ohc=mqq9uyskdo8Q7kNvwH8vplu&_nc_gid=vwTfAKm_eay9tm1xaIBefA&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Af5Yw90zJFg25Qi_PFCEh35sARdyLtVVd0sh7xaGCaoZ-A&oe=6A0671B8&_nc_sid=7a9f4b" 
-               alt="Split Chrono Logo"
+               src="https://scontent-lga3-2.cdninstagram.com/v/t51.82787-19/671814932_18082300949166593_8572662144281401063_n.jpg?cb=8438d1d6-89aba764&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gETvn836jZKuQzARgYV74UrHIssb852pfexcl1leWEqWozSjNZ_fLC2tHjRTsWDjtbC9H10hnRHEwOVJGF3EE1M&_nc_ohc=mdULwJslmNsQ7kNvwFaxxhS&_nc_gid=T5G0ap4AyQy1Q3EOQ97ATQ&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Af5qt6O580WA6cs8Y_UMGO70o86aKYwCaOBc2LxaG9STWg&oe=6A067E70&_nc_sid=7a9f4b" 
+               alt="AR Watches Corp Logo"
                className="w-full h-full object-cover"
                referrerPolicy="no-referrer"
              />
           </div>
           <div className="flex flex-col">
-            <span className="text-[16px] font-serif font-medium text-accent tracking-widest uppercase leading-none mb-1">Split Chrono</span>
-            <span className="text-[8px] uppercase tracking-[0.4em] text-white/40 font-bold">LUXURY WATCH DEALER • MILANO</span>
+            <span className="text-[16px] font-serif font-medium text-accent tracking-widest uppercase leading-none mb-1">AR Watches Corp</span>
+            <span className="text-[8px] uppercase tracking-[0.4em] text-white/40 font-bold">WATCH WHOLESALER • MIAMI</span>
           </div>
         </div>
 
@@ -99,17 +99,17 @@ export default function App() {
       <footer id="contact" className="relative z-20 bg-luxury-black border-t border-white/5 px-10 pt-40 pb-20 md:px-16">
         <div className="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 mb-32">
           <div>
-            <span className="text-[12px] font-bold uppercase tracking-[0.5em] text-accent mb-8 block font-serif">Split Chrono</span>
+            <span className="text-[12px] font-bold uppercase tracking-[0.5em] text-accent mb-8 block font-serif">AR Watches Corp</span>
             <p className="text-white/30 text-[10px] leading-loose uppercase tracking-[0.2em]">
-              Exquiste luxury watch dealer based in Split and Milano. Trusted seller providing curated timepieces with EU shipping.
+              Premier luxury watch wholesaler based in Miami. Authorized distributor providing curated timepieces with secure global delivery.
             </p>
           </div>
           
           <div className="flex flex-col gap-4">
-            <h4 className="text-[10px] uppercase tracking-[0.4em] font-bold mb-4 opacity-20">Boutiques</h4>
-            <p className="text-white/60 text-xs uppercase tracking-widest hover:text-accent transition-colors cursor-pointer">Split, Croatia</p>
-            <p className="text-white/60 text-xs uppercase tracking-widest hover:text-accent transition-colors cursor-pointer">Milano, Italy</p>
-            <p className="text-white/60 text-xs uppercase tracking-widest hover:text-accent transition-colors cursor-pointer">Global Express</p>
+            <h4 className="text-[10px] uppercase tracking-[0.4em] font-bold mb-4 opacity-20">Headquarters</h4>
+            <p className="text-white/60 text-xs uppercase tracking-widest hover:text-accent transition-colors cursor-pointer">169 E. Flagler St</p>
+            <p className="text-white/60 text-xs uppercase tracking-widest hover:text-accent transition-colors cursor-pointer">Suite 1018</p>
+            <p className="text-white/60 text-xs uppercase tracking-widest hover:text-accent transition-colors cursor-pointer">Miami, FL 33131</p>
           </div>
 
           <div className="flex flex-col gap-4">
@@ -123,17 +123,17 @@ export default function App() {
             <h4 className="text-[10px] uppercase tracking-[0.4em] font-bold mb-4 text-white/20">Contact</h4>
             <div className="flex items-center gap-3">
               <Phone size={14} className="text-accent/60" />
-              <span className="text-xs tracking-[0.2em]">CONTACT@SPLITCHRONO.COM</span>
+              <span className="text-xs tracking-[0.2em]">INFO@ARWATCHESCORP.COM</span>
             </div>
             <div className="flex items-center gap-3">
               <MapPin size={14} className="text-accent/60" />
-              <span className="text-xs tracking-[0.2em]">SPLIT • MILANO</span>
+              <span className="text-xs tracking-[0.2em]">MIAMI, FLORIDA</span>
             </div>
           </div>
         </div>
 
         <div className="max-w-[1400px] mx-auto pt-20 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-          <p className="text-[9px] uppercase tracking-[0.5em] text-white/20">© 2026 Split Chrono. All Rights Reserved.</p>
+          <p className="text-[9px] uppercase tracking-[0.5em] text-white/20">© 2026 AR Watches Corp. All Rights Reserved.</p>
           <div className="flex gap-8">
             <span className="text-[9px] uppercase tracking-[0.2em] text-white/20 hover:text-white transition-colors cursor-pointer">Privacy Policy</span>
             <span className="text-[9px] uppercase tracking-[0.2em] text-white/20 hover:text-white transition-colors cursor-pointer">Terms of Service</span>
